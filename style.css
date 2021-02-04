@@ -1,0 +1,231 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #19191a;
+}
+
+/* HEADER */
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background-color: #0D324D;
+}
+
+.overlay {
+	width: 50%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.overlay-content a, .openbtn, .closebtn {
+	color: white;
+	padding: 15px 10px;
+	font-size: 20px;          
+	font-weight: bold;
+}
+
+.overlay-content a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Arvo', serif;
+}
+
+.overlay-content a:hover {
+	color: white;
+	background-color: #15517d;
+}
+
+.openbtn {
+	display: none;
+	float: right;
+}
+
+.closebtn {
+	display: none;
+	font-family: 'Arvo', serif;
+}
+
+/* MAIN */
+main, footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 50px;
+}
+
+.text {
+	position: absolute;
+	top: 2.5%;
+	left: 19%;
+}
+
+#title {
+	font-size: 60px;
+	font-family: 'Sriracha', cursive;
+	margin-bottom: auto;
+	color: #d4452f;
+}
+
+#img-caption {
+	font-size: 50px;
+	margin-top: 0;
+	text-align: center;
+	color: white;
+	font-family:'Jomhuria', cursive;
+}
+
+#tribute-link {
+	text-decoration: none;
+	color: #878e91;
+}
+
+/* BIOGRAPHY */
+h2 {
+	font-family: 'Arvo', serif;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: auto;
+	margin-top: auto;
+	color: #d4452f;
+}
+
+#biography {
+	background-color: #272b11;
+}
+
+#biography, #career {
+	width: 100%;
+}
+
+#biography, #achievements, #career {
+	display: flex;
+	flex-direction: column;
+	padding-top: 65px;
+}
+
+#tribute-info, #achieve, .caption, #row, #info {
+	display: flex;
+	flex-direction: row;
+}
+
+#tribute-info, #achieve {
+	justify-content: center;
+	align-items: center;
+	padding: 0 90px 40px 90px;
+}
+
+#tribute-info img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+#tribute-info p {
+	color: white;
+	width: 800px;
+	line-height: 1.8;
+	padding: 20px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#tribute-info a:hover {
+	color: #d4452f;
+}
+
+/* ACHIEVEMENTS */
+#left, #right, .prof {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    
+}	
+
+#left, #right {
+	justify-content: center;
+	width: 488px;
+	padding: 20px;
+	margin: 18px 0;
+}	
+
+.caption {
+	background-color: #a38560;
+	background-image: linear-gradient(315deg, #a38560 0%, #e0d4ae 74%);
+	margin: 10px 10px;
+	border-radius: 20px;
+	border: 4px ;
+	box-shadow: 5px 10px 14px gray;
+	width: 428px;
+	height: 120px;
+}
+
+.caption p {
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 20px;
+}
+
+strong {
+	font-size: 20px;
+}
+
+/* CAREER */
+#row {
+    justify-content: space-around;
+	margin: 20px 50px;
+	padding-bottom: 10px;
+}
+
+.prof {
+	width: 250px;
+	padding: 20px;
+	background-color: #a38560;
+	background-image: linear-gradient(315deg, #a38560 0%, #e0d4ae 74%);
+	border-radius: 12px;
+	box-shadow: 5px 10px 14px gray;
+	margin: 38px 0;
+}
+
+.prof img {
+	width: 170px;
+	height: 170px;
+	border-radius: 100px;
+	border: 3px;
+}
+
+.prof-text {
+	text-align: center;
+	margin: 10px 0;
+	margin-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* MORE INFO */
+#info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#info p {
+	color: white;
+	text-align: center;
+	font-size: 23px;
+}
+
+#info a:hover {
+	color: #d4452f;
+}
+
+
+/* FOOTER */
+footer {
+	background-color: #0D324D;
+	color: white;
+	font-size: 20px;
+}
